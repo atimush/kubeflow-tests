@@ -26,8 +26,8 @@ resources:
   # Serving components
   - ../../seldon/seldon-core-operator/overlays/application
   # AWS components
-  - ../../aws/aws-alb-ingress-controller/base_v3
-  - ../../aws/nvidia-device-plugin/overlays/application
+#   - ../../aws/aws-alb-ingress-controller/base_v3
+#   - ../../aws/nvidia-device-plugin/overlays/application
   # Kubernetes resources - anonymous user
   - ../../default-install/base
   # Metadata
